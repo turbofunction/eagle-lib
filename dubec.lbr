@@ -58,6 +58,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <description>By Janne Savukoski 2014</description>
@@ -594,6 +595,58 @@ Reference LTC DWG # 05-08-1766 Rev A</description>
 <wire x1="3.25" y1="-1" x2="3" y2="-0.5" width="0.1524" layer="21"/>
 <wire x1="5" y1="-0.5" x2="5" y2="0.5" width="0.1524" layer="21"/>
 </package>
+<package name="3-DFN1006">
+<smd name="B" x="-0.35" y="0.225" dx="0.4" dy="0.25" layer="1"/>
+<smd name="E" x="-0.35" y="-0.225" dx="0.4" dy="0.25" layer="1"/>
+<smd name="C" x="0.35" y="0" dx="0.4" dy="0.7" layer="1"/>
+<text x="-0.65" y="0.55" size="0.4" layer="25">&gt;NAME</text>
+<text x="-0.65" y="-0.95" size="0.4" layer="27">&gt;VALUE</text>
+</package>
+<package name="BESTCAP_S">
+</package>
+<package name="BESTCAP_S_BZ01">
+</package>
+<package name="BESTCAP_S_BZ05">
+<smd name="1B" x="-12.5" y="-5" dx="2.9" dy="4.5" layer="1"/>
+<smd name="1A" x="-12.5" y="5" dx="2.9" dy="4.5" layer="1"/>
+<smd name="2" x="12.5" y="0" dx="3" dy="4.5" layer="1"/>
+<wire x1="-10" y1="7.5" x2="10" y2="7.5" width="0.2" layer="21"/>
+<wire x1="10" y1="7.5" x2="10" y2="-7.5" width="0.2" layer="21"/>
+<wire x1="10" y1="-7.5" x2="-10" y2="-7.5" width="0.2" layer="21"/>
+<wire x1="-10" y1="-7.5" x2="-10" y2="7.5" width="0.2" layer="21"/>
+<text x="-10" y="8.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10" y="-10" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="PHB_1.5F">
+<pad name="A" x="-5.9" y="0" drill="0.8" shape="square"/>
+<pad name="C" x="5.9" y="0" drill="0.8"/>
+<text x="-6" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.6" y1="0.2" x2="-6.6" y2="0.7" width="0.1524" layer="41"/>
+<wire x1="-6.6" y1="0.7" x2="-6.1" y2="0.7" width="0.1524" layer="41"/>
+<wire x1="-6.1" y1="-0.7" x2="-6.6" y2="-0.7" width="0.1524" layer="41"/>
+<wire x1="-6.6" y1="-0.7" x2="-6.6" y2="-0.2" width="0.1524" layer="41"/>
+<wire x1="-5.2" y1="-0.2" x2="-5.2" y2="-0.7" width="0.1524" layer="41"/>
+<wire x1="-5.2" y1="-0.7" x2="-5.7" y2="-0.7" width="0.1524" layer="41"/>
+<wire x1="-5.7" y1="0.7" x2="-5.2" y2="0.7" width="0.1524" layer="41"/>
+<wire x1="-5.2" y1="0.7" x2="-5.2" y2="0.2" width="0.1524" layer="41"/>
+<wire x1="-6.6" y1="0.2" x2="-6.6" y2="0.7" width="0.1524" layer="42"/>
+<wire x1="-6.6" y1="0.7" x2="-6.1" y2="0.7" width="0.1524" layer="42"/>
+<wire x1="-5.2" y1="-0.2" x2="-5.2" y2="-0.7" width="0.1524" layer="42"/>
+<wire x1="-5.2" y1="-0.7" x2="-5.7" y2="-0.7" width="0.1524" layer="42"/>
+<wire x1="-6.1" y1="-0.7" x2="-6.6" y2="-0.7" width="0.1524" layer="42"/>
+<wire x1="-6.6" y1="-0.7" x2="-6.6" y2="-0.2" width="0.1524" layer="42"/>
+<wire x1="-5.7" y1="0.7" x2="-5.2" y2="0.7" width="0.1524" layer="42"/>
+<wire x1="-5.2" y1="0.7" x2="-5.2" y2="0.2" width="0.1524" layer="42"/>
+<wire x1="5.2" y1="0.2" x2="5.7" y2="0.7" width="0.1524" layer="41" curve="-58.109208"/>
+<wire x1="5.7" y1="-0.7" x2="5.2" y2="-0.2" width="0.1524" layer="41" curve="-58.109208"/>
+<wire x1="6.6" y1="-0.2" x2="6.1" y2="-0.7" width="0.1524" layer="42" curve="-58.109208"/>
+<wire x1="6.1" y1="0.7" x2="6.6" y2="0.2" width="0.1524" layer="42" curve="-58.109208"/>
+<wire x1="5.2" y1="0.2" x2="5.7" y2="0.7" width="0.1524" layer="42" curve="-58.109208"/>
+<wire x1="5.7" y1="-0.7" x2="5.2" y2="-0.2" width="0.1524" layer="42" curve="-58.109208"/>
+<wire x1="6.6" y1="-0.2" x2="6.1" y2="-0.7" width="0.1524" layer="41" curve="-58.109208"/>
+<wire x1="6.1" y1="0.7" x2="6.6" y2="0.2" width="0.1524" layer="41" curve="-58.109208"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LTM4606">
@@ -713,7 +766,7 @@ Reference LTC DWG # 05-08-1766 Rev A</description>
 <pin name="GND" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="V+" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 <text x="0.762" y="1.778" size="1.27" layer="95">&gt;NAME</text>
-<text x="0.508" y="-3.048" size="1.27" layer="96">&gt;VALUE</text>
+<text x="0.508" y="-5.588" size="1.27" layer="96">&gt;VALUE</text>
 <rectangle x1="-2.032" y1="-0.508" x2="2.032" y2="0" layer="94"/>
 <rectangle x1="-2.032" y1="-2.54" x2="2.032" y2="-2.032" layer="94"/>
 </symbol>
@@ -773,6 +826,83 @@ Reference LTC DWG # 05-08-1766 Rev A</description>
 <circle x="5.08" y="7.62" radius="2.54" width="0.508" layer="94"/>
 <circle x="5.08" y="0" radius="2.54" width="0.508" layer="94"/>
 <circle x="5.08" y="-7.62" radius="2.54" width="0.508" layer="94"/>
+</symbol>
+<symbol name="DIODE">
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.397" y1="1.905" x2="1.397" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.3114" y="2.6416" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.5654" y="-4.4958" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="SCH_DIODE">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="PNP">
+<wire x1="2.086" y1="1.678" x2="1.578" y2="2.594" width="0.1524" layer="94"/>
+<wire x1="1.578" y1="2.594" x2="0.516" y2="1.478" width="0.1524" layer="94"/>
+<wire x1="0.516" y1="1.478" x2="2.086" y2="1.678" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="1.808" y2="2.124" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="1.778" x2="1.524" y2="2.413" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.413" x2="0.762" y2="1.651" width="0.254" layer="94"/>
+<wire x1="0.762" y1="1.651" x2="1.778" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="1.778" x2="1.524" y2="2.159" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.159" x2="1.143" y2="1.905" width="0.254" layer="94"/>
+<wire x1="1.143" y1="1.905" x2="1.524" y2="1.905" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="NPN">
+<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
+<symbol name="DIODE_SCHOTTKY">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1028,6 +1158,15 @@ Reference LTC DWG # 05-08-1766 Rev A</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="POWERSTOR_1.5F" package="PHB_1.5F">
+<connects>
+<connect gate="G$1" pin="GND" pad="C"/>
+<connect gate="G$1" pin="V+" pad="A"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="BEAD">
@@ -1137,6 +1276,88 @@ Reference LTC DWG # 05-08-1766 Rev A</description>
 <connect gate="G$1" pin="GND" pad="5"/>
 <connect gate="G$1" pin="RESET" pad="4"/>
 <connect gate="G$1" pin="VTG" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SCH_DIODE" prefix="D">
+<gates>
+<gate name="G$1" symbol="SCH_DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SCHOTTKY-0402" package="0402">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TR_PNP">
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3-DFN1006">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TR_NPN">
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3-DFN1006">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIODE">
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BESTCAP">
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BESTCAP_S_BZ05">
+<connects>
+<connect gate="G$1" pin="GND" pad="1A 1B"/>
+<connect gate="G$1" pin="V+" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
