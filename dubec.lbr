@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="10" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -647,6 +647,35 @@ Reference LTC DWG # 05-08-1766 Rev A</description>
 <wire x1="6.6" y1="-0.2" x2="6.1" y2="-0.7" width="0.1524" layer="41" curve="-58.109208"/>
 <wire x1="6.1" y1="0.7" x2="6.6" y2="0.2" width="0.1524" layer="41" curve="-58.109208"/>
 </package>
+<package name="JST-SH_5-SIDE">
+<smd name="3" x="0" y="1.875" dx="0.6" dy="1.55" layer="1"/>
+<smd name="4" x="1" y="1.875" dx="0.6" dy="1.55" layer="1"/>
+<smd name="2" x="-1" y="1.875" dx="0.6" dy="1.55" layer="1"/>
+<smd name="1" x="-2" y="1.875" dx="0.6" dy="1.55" layer="1"/>
+<smd name="5" x="2" y="1.875" dx="0.6" dy="1.55" layer="1"/>
+<text x="-4" y="3.4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4" y="-4.8" size="1.27" layer="25">&gt;VALUE</text>
+<wire x1="-2.7" y1="-2.7" x2="2.7" y2="-2.7" width="0.127" layer="21"/>
+<wire x1="2.6" y1="1.6" x2="3.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="3.5" y1="1.6" x2="3.5" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="1.6" x2="-3.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="1.6" x2="-3.5" y2="-0.8" width="0.127" layer="21"/>
+<rectangle x1="-4.2" y1="-2.9" x2="-3" y2="-1.1" layer="1"/>
+<rectangle x1="-4.3" y1="-3" x2="-2.9" y2="-1" layer="29"/>
+<rectangle x1="-4.2" y1="-2.9" x2="-3" y2="-1.1" layer="31"/>
+<rectangle x1="3" y1="-2.9" x2="4.2" y2="-1.1" layer="1"/>
+<rectangle x1="2.9" y1="-3" x2="4.3" y2="-1" layer="29"/>
+<rectangle x1="3" y1="-2.9" x2="4.2" y2="-1.1" layer="31"/>
+</package>
+<package name="PINHEAD1.27-5">
+<pad name="3" x="0" y="0" drill="0.5" rot="R90"/>
+<pad name="4" x="1.27" y="0" drill="0.5" rot="R90"/>
+<pad name="5" x="2.54" y="0" drill="0.5" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="0.5" rot="R90"/>
+<pad name="1" x="-2.54" y="0" drill="0.5" rot="R90"/>
+<text x="-3" y="1.4" size="0.8" layer="25">&gt;NAME</text>
+<text x="-3" y="-2.2" size="0.8" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LTM4606">
@@ -1269,7 +1298,31 @@ Reference LTC DWG # 05-08-1766 Rev A</description>
 <gate name="G$1" symbol="TPI" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="PINHEAD2MM-5">
+<device name="2MM" package="PINHEAD2MM-5">
+<connects>
+<connect gate="G$1" pin="CLOCK" pad="3"/>
+<connect gate="G$1" pin="DATA" pad="1"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="RESET" pad="4"/>
+<connect gate="G$1" pin="VTG" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST-SH" package="JST-SH_5-SIDE">
+<connects>
+<connect gate="G$1" pin="CLOCK" pad="5"/>
+<connect gate="G$1" pin="DATA" pad="3"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="RESET" pad="2"/>
+<connect gate="G$1" pin="VTG" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1.27MM" package="PINHEAD1.27-5">
 <connects>
 <connect gate="G$1" pin="CLOCK" pad="3"/>
 <connect gate="G$1" pin="DATA" pad="1"/>
