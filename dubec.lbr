@@ -1008,10 +1008,10 @@ Reference LTC DWG # 05-08-1766 Rev A</description>
 <rectangle x1="1.8" y1="0.8" x2="2.2" y2="1.2" layer="51"/>
 <rectangle x1="-0.2" y1="0.8" x2="0.2" y2="1.2" layer="51"/>
 <rectangle x1="-2.2" y1="0.8" x2="-1.8" y2="1.2" layer="51"/>
-<wire x1="-3" y1="2" x2="3" y2="2" width="0.127" layer="21"/>
-<wire x1="3" y1="2" x2="3" y2="-2" width="0.127" layer="21"/>
-<wire x1="3" y1="-2" x2="-3" y2="-2" width="0.127" layer="21"/>
-<wire x1="-3" y1="-2" x2="-3" y2="2" width="0.127" layer="21"/>
+<wire x1="-3" y1="2" x2="3" y2="2" width="0.13" layer="21"/>
+<wire x1="3" y1="2" x2="3" y2="-2" width="0.13" layer="21"/>
+<wire x1="3" y1="-2" x2="-3" y2="-2" width="0.13" layer="21"/>
+<wire x1="-3" y1="-2" x2="-3" y2="2" width="0.13" layer="21"/>
 <pad name="2" x="-2" y="1" drill="0.8" diameter="1.4" stop="no"/>
 <pad name="4" x="0" y="1" drill="0.8" diameter="1.4" stop="no"/>
 <pad name="6" x="2" y="1" drill="0.8" diameter="1.4" stop="no"/>
@@ -2184,6 +2184,24 @@ chip</description>
 <rectangle x1="-2.5" y1="-2.45" x2="-1.55" y2="2.45" layer="31"/>
 <rectangle x1="1.55" y1="-2.45" x2="2.5" y2="2.45" layer="31"/>
 </package>
+<package name="H1.27MM-3X2">
+<pad name="P$2" x="-1.27" y="0.635" drill="0.6" diameter="1" stop="no"/>
+<circle x="-1.27" y="0.635" radius="0.25" width="0.6" layer="29"/>
+<pad name="P$4" x="0" y="0.635" drill="0.6" diameter="1" stop="no"/>
+<circle x="0" y="0.635" radius="0.25" width="0.6" layer="29"/>
+<pad name="P$6" x="1.27" y="0.635" drill="0.6" diameter="1" stop="no"/>
+<circle x="1.27" y="0.635" radius="0.25" width="0.6" layer="29"/>
+<pad name="P$3" x="0" y="-0.635" drill="0.6" diameter="1" stop="no"/>
+<circle x="0" y="-0.635" radius="0.25" width="0.6" layer="29"/>
+<pad name="P$5" x="1.27" y="-0.635" drill="0.6" diameter="1" stop="no"/>
+<circle x="1.27" y="-0.635" radius="0.25" width="0.6" layer="29"/>
+<pad name="P$1" x="-1.27" y="-0.635" drill="0.6" diameter="1" shape="square" stop="no" first="yes"/>
+<rectangle x1="-1.82" y1="-1.185" x2="-0.72" y2="-0.085" layer="29"/>
+<wire x1="-2" y1="1.715" x2="2" y2="1.715" width="0.13" layer="21"/>
+<wire x1="2" y1="1.715" x2="2" y2="-1.715" width="0.13" layer="21"/>
+<wire x1="2" y1="-1.715" x2="-2" y2="-1.715" width="0.13" layer="21"/>
+<wire x1="-2" y1="-1.715" x2="-2" y2="1.715" width="0.13" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LTM4606">
@@ -2813,7 +2831,7 @@ chip</description>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="PB1171CT-ND" constant="no"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
-<attribute name="MFG_PART_#" value="9-1462038-8" constant="no"/>
+<attribute name="MFG_PART_#" value="IM02DGR" constant="no"/>
 <attribute name="TEMP" value="-40°C ~ 85°C" constant="no"/>
 <attribute name="TYPE" value="smt" constant="no"/>
 <attribute name="USD" value="3.33" constant="no"/>
@@ -3855,6 +3873,22 @@ chip</description>
 </technology>
 </technologies>
 </device>
+<device name="1.2K_16" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="541-1.20KLCT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
+<attribute name="MFG_PART_#" value="CRCW04021K20FKED" constant="no"/>
+<attribute name="TEMP" value="±100ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+<attribute name="USD" value="2.10/50" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="HEAD2MM-6">
@@ -4246,6 +4280,7 @@ chip</description>
 </devices>
 </deviceset>
 <deviceset name="AVRISP">
+<description>AVR ISP header</description>
 <gates>
 <gate name="G$1" symbol="AVRISP" x="0" y="0"/>
 </gates>
@@ -4292,6 +4327,23 @@ chip</description>
 <attribute name="MFG_PART_#" value="A3C-6P-2DSA" constant="no"/>
 <attribute name="RELATED" value="H2002-ND, H9999-ND" constant="no"/>
 <attribute name="TYPE" value="thru-hole" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.27MM" package="H1.27MM-3X2">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$6"/>
+<connect gate="G$1" pin="MISO" pad="P$1"/>
+<connect gate="G$1" pin="MOSI" pad="P$4"/>
+<connect gate="G$1" pin="RESET" pad="P$5"/>
+<connect gate="G$1" pin="SCK" pad="P$3"/>
+<connect gate="G$1" pin="VCC" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="609-3710-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="FCI" constant="no"/>
+<attribute name="MFG_PART_#" value="20021111-00006T4LF" constant="no"/>
 </technology>
 </technologies>
 </device>
