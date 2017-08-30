@@ -5051,9 +5051,9 @@ chip</description>
 <package name="POWERDI3333-8">
 <text x="0" y="-0.2" size="0.4" layer="27" align="top-center">&gt;VALUE</text>
 <text x="0" y="0.2" size="0.4" layer="25" align="bottom-center">&gt;NAME</text>
-<smd name="G" x="1.5" y="0.975" dx="0.7" dy="0.4" layer="1" roundness="20" stop="no" thermals="no" cream="no"/>
+<smd name="G" x="1.5" y="1" dx="0.7" dy="0.35" layer="1" roundness="20" stop="no" thermals="no" cream="no"/>
 <smd name="D" x="-0.8" y="0" dx="0.4" dy="0.4" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="S" x="1.5" y="-0.325" dx="0.7" dy="1.7" layer="1" roundness="15" stop="no" thermals="no" cream="no"/>
+<smd name="S" x="1.5" y="-0.35" dx="0.7" dy="1.65" layer="1" roundness="15" stop="no" thermals="no" cream="no"/>
 <wire x1="-1.65" y1="1.65" x2="1.65" y2="1.65" width="0.05" layer="51"/>
 <wire x1="1.65" y1="1.65" x2="1.65" y2="-1.65" width="0.05" layer="51"/>
 <wire x1="1.65" y1="-1.65" x2="-1.65" y2="-1.65" width="0.05" layer="51"/>
@@ -5094,8 +5094,6 @@ chip</description>
 <vertex x="-1.325" y="0.8"/>
 <vertex x="-1.825" y="0.8"/>
 </polygon>
-<rectangle x1="1.125" y1="0.75" x2="1.875" y2="1.2" layer="29"/>
-<rectangle x1="1.125" y1="-1.2" x2="1.875" y2="0.55" layer="29"/>
 <polygon width="0.1" layer="31">
 <vertex x="-1.725" y="1.05"/>
 <vertex x="0.1" y="1.05"/>
@@ -5114,8 +5112,12 @@ chip</description>
 <vertex x="-1.225" y="0.9"/>
 <vertex x="-1.725" y="0.9"/>
 </polygon>
-<rectangle x1="1.35" y1="-1.075" x2="1.75" y2="0.35" layer="31"/>
-<rectangle x1="1.35" y1="0.825" x2="1.75" y2="1.125" layer="31"/>
+<rectangle x1="1.125" y1="0.8" x2="1.875" y2="1.2" layer="29"/>
+<rectangle x1="1.125" y1="-1.2" x2="1.875" y2="0.5" layer="29"/>
+<rectangle x1="1.25" y1="0.9" x2="1.8" y2="1.125" layer="31"/>
+<rectangle x1="1.275" y1="-1.1" x2="1.8" y2="-0.85" layer="31"/>
+<rectangle x1="1.25" y1="0.15" x2="1.8" y2="0.375" layer="31"/>
+<rectangle x1="1.275" y1="-0.45" x2="1.8" y2="-0.2" layer="31"/>
 </package>
 </packages>
 <symbols>
@@ -11638,16 +11640,6 @@ chip</description>
 </technology>
 </technologies>
 </device>
-<device name="40V_10A" package="POWERDI3333-8">
-<connects>
-<connect gate="G$1" pin="D" pad="D"/>
-<connect gate="G$1" pin="G" pad="G"/>
-<connect gate="G$1" pin="S" pad="S"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 </devices>
 </deviceset>
 <deviceset name="TCAP" prefix="C">
@@ -12683,6 +12675,23 @@ chip</description>
 <attribute name="MFG_PART_#" value="FDMA6676PZ" constant="no"/>
 <attribute name="POWER" value="0.9W" constant="no"/>
 <attribute name="RDS" value="13.5 mOhm @ 11A, 10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="40V_10A" package="POWERDI3333-8">
+<connects>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="EURO" value="39.10/100" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MFG_PART_#" value="DMP4013LFG-7" constant="no"/>
+<attribute name="MOUSER_PART_#" value="621-DMP4013LFG-7" constant="no"/>
+<attribute name="P" value="1 W" constant="no"/>
+<attribute name="RDS" value="9.4 mOhms" constant="no"/>
 </technology>
 </technologies>
 </device>
