@@ -3522,87 +3522,87 @@ chip</description>
 <rectangle x1="-0.175" y1="-1.075" x2="0.175" y2="-0.725" layer="29"/>
 </package>
 <package name="6-POWERWDFN">
-<text x="-0.75" y="0" size="0.25" layer="27">&gt;VALUE</text>
-<text x="-0.75" y="0.6" size="0.25" layer="25" align="top-left">&gt;NAME</text>
-<smd name="G" x="0.7" y="-0.8" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="D" x="-0.3" y="0" dx="0.4" dy="0.4" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="S" x="0.7" y="0" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
+<text x="-0.775" y="0" size="0.25" layer="27">&gt;VALUE</text>
+<text x="-0.775" y="0.6" size="0.25" layer="25" align="top-left">&gt;NAME</text>
+<smd name="G" x="0.675" y="-0.8" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="D" x="-0.325" y="0" dx="0.4" dy="0.4" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="S" x="0.675" y="0" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
 <polygon width="0.2" layer="31">
-<vertex x="-0.575" y="-0.6"/>
-<vertex x="-0.575" y="0.6"/>
-<vertex x="-0.225" y="0.6"/>
-<vertex x="-0.225" y="-0.6"/>
+<vertex x="-0.6" y="-0.6"/>
+<vertex x="-0.6" y="0.6"/>
+<vertex x="-0.25" y="0.6"/>
+<vertex x="-0.25" y="-0.6"/>
 </polygon>
-<rectangle x1="0.575" y1="0.75" x2="0.775" y2="1.05" layer="31"/>
-<rectangle x1="0.575" y1="-0.3" x2="0.775" y2="0.3" layer="31"/>
-<wire x1="0" y1="0.9" x2="0" y2="0.725" width="0.25" layer="31"/>
-<wire x1="0" y1="0.725" x2="-0.125" y2="0.6" width="0.25" layer="31"/>
-<wire x1="-0.65" y1="0.9" x2="-0.65" y2="0.7" width="0.25" layer="31"/>
-<wire x1="-0.125" y1="-0.6" x2="0" y2="-0.725" width="0.25" layer="31"/>
-<wire x1="0" y1="-0.725" x2="0" y2="-0.9" width="0.25" layer="31"/>
-<wire x1="-0.65" y1="-0.7" x2="-0.65" y2="-0.9" width="0.25" layer="31"/>
-<rectangle x1="0.575" y1="-1.05" x2="0.775" y2="-0.75" layer="31"/>
+<rectangle x1="0.55" y1="0.75" x2="0.75" y2="1.05" layer="31"/>
+<rectangle x1="0.55" y1="-0.3" x2="0.75" y2="0.3" layer="31"/>
+<wire x1="-0.025" y1="0.9" x2="-0.025" y2="0.725" width="0.25" layer="31"/>
+<wire x1="-0.025" y1="0.725" x2="-0.15" y2="0.6" width="0.25" layer="31"/>
+<wire x1="-0.675" y1="0.9" x2="-0.675" y2="0.7" width="0.25" layer="31"/>
+<wire x1="-0.15" y1="-0.6" x2="-0.025" y2="-0.725" width="0.25" layer="31"/>
+<wire x1="-0.025" y1="-0.725" x2="-0.025" y2="-0.9" width="0.25" layer="31"/>
+<wire x1="-0.675" y1="-0.7" x2="-0.675" y2="-0.9" width="0.25" layer="31"/>
+<rectangle x1="0.55" y1="-1.05" x2="0.75" y2="-0.75" layer="31"/>
 <polygon width="0.15" layer="1">
-<vertex x="-0.7" y="-0.75"/>
-<vertex x="-0.7" y="0.75"/>
-<vertex x="-0.75" y="0.8"/>
-<vertex x="-0.75" y="0.975"/>
-<vertex x="-0.55" y="0.975"/>
-<vertex x="-0.55" y="0.725"/>
-<vertex x="-0.1" y="0.725"/>
-<vertex x="-0.1" y="0.975"/>
-<vertex x="0.1" y="0.975"/>
-<vertex x="0.1" y="-0.975"/>
-<vertex x="-0.1" y="-0.975"/>
-<vertex x="-0.1" y="-0.725"/>
-<vertex x="-0.55" y="-0.725"/>
-<vertex x="-0.55" y="-0.975"/>
-<vertex x="-0.75" y="-0.975"/>
-<vertex x="-0.75" y="-0.8"/>
-</polygon>
-<polygon width="0.15" layer="1">
-<vertex x="0.575" y="-0.275"/>
-<vertex x="0.575" y="0.975"/>
-<vertex x="0.825" y="0.975"/>
-<vertex x="0.825" y="0.275"/>
-<vertex x="1.375" y="0.275"/>
-<vertex x="1.375" y="-0.275"/>
+<vertex x="-0.725" y="-0.75"/>
+<vertex x="-0.725" y="0.75"/>
+<vertex x="-0.775" y="0.8"/>
+<vertex x="-0.775" y="0.975"/>
+<vertex x="-0.575" y="0.975"/>
+<vertex x="-0.575" y="0.725"/>
+<vertex x="-0.125" y="0.725"/>
+<vertex x="-0.125" y="0.975"/>
+<vertex x="0.075" y="0.975"/>
+<vertex x="0.075" y="-0.975"/>
+<vertex x="-0.125" y="-0.975"/>
+<vertex x="-0.125" y="-0.725"/>
+<vertex x="-0.575" y="-0.725"/>
+<vertex x="-0.575" y="-0.975"/>
+<vertex x="-0.775" y="-0.975"/>
+<vertex x="-0.775" y="-0.8"/>
 </polygon>
 <polygon width="0.15" layer="1">
-<vertex x="0.575" y="-0.975"/>
-<vertex x="0.575" y="-0.675"/>
-<vertex x="0.825" y="-0.675"/>
-<vertex x="0.825" y="-0.975"/>
+<vertex x="0.55" y="-0.275"/>
+<vertex x="0.55" y="0.975"/>
+<vertex x="0.8" y="0.975"/>
+<vertex x="0.8" y="0.275"/>
+<vertex x="1.35" y="0.275"/>
+<vertex x="1.35" y="-0.275"/>
+</polygon>
+<polygon width="0.15" layer="1">
+<vertex x="0.55" y="-0.975"/>
+<vertex x="0.55" y="-0.675"/>
+<vertex x="0.8" y="-0.675"/>
+<vertex x="0.8" y="-0.975"/>
 </polygon>
 <polygon width="0.15" layer="29">
-<vertex x="-0.525" y="0.75"/>
-<vertex x="-0.125" y="0.75"/>
-<vertex x="-0.125" y="1"/>
-<vertex x="0.125" y="1"/>
-<vertex x="0.125" y="-1"/>
-<vertex x="-0.125" y="-1"/>
-<vertex x="-0.125" y="-0.75"/>
-<vertex x="-0.525" y="-0.75"/>
-<vertex x="-0.525" y="-1"/>
-<vertex x="-0.775" y="-1"/>
-<vertex x="-0.775" y="-0.775"/>
-<vertex x="-0.725" y="-0.725"/>
-<vertex x="-0.725" y="0.725"/>
-<vertex x="-0.775" y="0.775"/>
-<vertex x="-0.775" y="1"/>
-<vertex x="-0.525" y="1"/>
+<vertex x="-0.55" y="0.75"/>
+<vertex x="-0.15" y="0.75"/>
+<vertex x="-0.15" y="1"/>
+<vertex x="0.1" y="1"/>
+<vertex x="0.1" y="-1"/>
+<vertex x="-0.15" y="-1"/>
+<vertex x="-0.15" y="-0.75"/>
+<vertex x="-0.55" y="-0.75"/>
+<vertex x="-0.55" y="-1"/>
+<vertex x="-0.8" y="-1"/>
+<vertex x="-0.8" y="-0.775"/>
+<vertex x="-0.75" y="-0.725"/>
+<vertex x="-0.75" y="0.725"/>
+<vertex x="-0.8" y="0.775"/>
+<vertex x="-0.8" y="1"/>
+<vertex x="-0.55" y="1"/>
 </polygon>
 <polygon width="0.15" layer="29">
-<vertex x="0.55" y="-0.3"/>
-<vertex x="0.55" y="1"/>
-<vertex x="0.85" y="1"/>
-<vertex x="0.85" y="-0.3"/>
+<vertex x="0.525" y="-0.3"/>
+<vertex x="0.525" y="1"/>
+<vertex x="0.825" y="1"/>
+<vertex x="0.825" y="-0.3"/>
 </polygon>
 <polygon width="0.15" layer="29">
-<vertex x="0.55" y="-0.65"/>
-<vertex x="0.85" y="-0.65"/>
-<vertex x="0.85" y="-1"/>
-<vertex x="0.55" y="-1"/>
+<vertex x="0.525" y="-0.65"/>
+<vertex x="0.825" y="-0.65"/>
+<vertex x="0.825" y="-1"/>
+<vertex x="0.525" y="-1"/>
 </polygon>
 <wire x1="-1.05" y1="1.05" x2="1.05" y2="1.05" width="0.05" layer="51"/>
 <wire x1="1.05" y1="1.05" x2="1.05" y2="-1.05" width="0.05" layer="51"/>
@@ -5119,6 +5119,129 @@ chip</description>
 <rectangle x1="1.25" y1="0.15" x2="1.8" y2="0.375" layer="31"/>
 <rectangle x1="1.275" y1="-0.45" x2="1.8" y2="-0.2" layer="31"/>
 </package>
+<package name="2-UDFN">
+<smd name="A" x="-0.675" y="0" dx="0.55" dy="1.9" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="C" x="0.675" y="0" dx="0.55" dy="1.9" layer="1" stop="no" thermals="no" cream="no"/>
+<wire x1="-1.2" y1="1.2" x2="1.2" y2="1.2" width="0.12" layer="21"/>
+<wire x1="1.2" y1="1.2" x2="1.2" y2="-1.2" width="0.12" layer="21"/>
+<wire x1="1.2" y1="-1.2" x2="-1.2" y2="-1.2" width="0.12" layer="21"/>
+<wire x1="-1.2" y1="-1.2" x2="-1.2" y2="1.2" width="0.12" layer="21"/>
+<text x="0" y="0.15" size="0.3" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.15" size="0.3" layer="25" align="top-center">&gt;VALUE</text>
+<rectangle x1="-1" y1="-1" x2="-0.35" y2="1" layer="29"/>
+<rectangle x1="0.35" y1="-1" x2="1" y2="1" layer="29"/>
+<rectangle x1="0.5" y1="-0.8" x2="0.9" y2="0.8" layer="31"/>
+<rectangle x1="-0.9" y1="-0.8" x2="-0.5" y2="0.8" layer="31"/>
+</package>
+<package name="U-DFN2020-6">
+<text x="-0.75" y="0" size="0.25" layer="27">&gt;VALUE</text>
+<text x="-0.75" y="0.6" size="0.25" layer="25" align="top-left">&gt;NAME</text>
+<smd name="G" x="0.7" y="-0.8" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="D" x="-0.3" y="0" dx="0.4" dy="0.4" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="S" x="0.7" y="0" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
+<polygon width="0.2" layer="31">
+<vertex x="-0.575" y="-0.6"/>
+<vertex x="-0.575" y="0.6"/>
+<vertex x="-0.225" y="0.6"/>
+<vertex x="-0.225" y="-0.6"/>
+</polygon>
+<rectangle x1="0.575" y1="0.75" x2="0.775" y2="1.05" layer="31"/>
+<rectangle x1="0.575" y1="-0.3" x2="0.775" y2="0.3" layer="31"/>
+<wire x1="0" y1="0.9" x2="0" y2="0.725" width="0.25" layer="31"/>
+<wire x1="0" y1="0.725" x2="-0.125" y2="0.6" width="0.25" layer="31"/>
+<wire x1="-0.65" y1="0.9" x2="-0.65" y2="0.7" width="0.25" layer="31"/>
+<wire x1="-0.125" y1="-0.6" x2="0" y2="-0.725" width="0.25" layer="31"/>
+<wire x1="0" y1="-0.725" x2="0" y2="-0.9" width="0.25" layer="31"/>
+<wire x1="-0.65" y1="-0.7" x2="-0.65" y2="-0.9" width="0.25" layer="31"/>
+<rectangle x1="0.575" y1="-1.05" x2="0.775" y2="-0.75" layer="31"/>
+<polygon width="0.15" layer="1">
+<vertex x="-0.7" y="-0.75"/>
+<vertex x="-0.7" y="0.75"/>
+<vertex x="-0.75" y="0.8"/>
+<vertex x="-0.75" y="0.975"/>
+<vertex x="-0.55" y="0.975"/>
+<vertex x="-0.55" y="0.725"/>
+<vertex x="-0.1" y="0.725"/>
+<vertex x="-0.1" y="0.975"/>
+<vertex x="0.1" y="0.975"/>
+<vertex x="0.1" y="-0.975"/>
+<vertex x="-0.1" y="-0.975"/>
+<vertex x="-0.1" y="-0.725"/>
+<vertex x="-0.55" y="-0.725"/>
+<vertex x="-0.55" y="-0.975"/>
+<vertex x="-0.75" y="-0.975"/>
+<vertex x="-0.75" y="-0.8"/>
+</polygon>
+<polygon width="0.15" layer="1">
+<vertex x="0.575" y="-0.275"/>
+<vertex x="0.575" y="0.975"/>
+<vertex x="0.825" y="0.975"/>
+<vertex x="0.825" y="0.275"/>
+<vertex x="1.375" y="0.275"/>
+<vertex x="1.375" y="-0.275"/>
+</polygon>
+<polygon width="0.15" layer="1">
+<vertex x="0.575" y="-0.975"/>
+<vertex x="0.575" y="-0.675"/>
+<vertex x="0.825" y="-0.675"/>
+<vertex x="0.825" y="-0.975"/>
+</polygon>
+<polygon width="0.15" layer="29">
+<vertex x="-0.525" y="0.75"/>
+<vertex x="-0.125" y="0.75"/>
+<vertex x="-0.125" y="1"/>
+<vertex x="0.125" y="1"/>
+<vertex x="0.125" y="-1"/>
+<vertex x="-0.125" y="-1"/>
+<vertex x="-0.125" y="-0.75"/>
+<vertex x="-0.525" y="-0.75"/>
+<vertex x="-0.525" y="-1"/>
+<vertex x="-0.775" y="-1"/>
+<vertex x="-0.775" y="-0.775"/>
+<vertex x="-0.725" y="-0.725"/>
+<vertex x="-0.725" y="0.725"/>
+<vertex x="-0.775" y="0.775"/>
+<vertex x="-0.775" y="1"/>
+<vertex x="-0.525" y="1"/>
+</polygon>
+<polygon width="0.15" layer="29">
+<vertex x="0.55" y="-0.3"/>
+<vertex x="0.55" y="1"/>
+<vertex x="0.85" y="1"/>
+<vertex x="0.85" y="-0.3"/>
+</polygon>
+<polygon width="0.15" layer="29">
+<vertex x="0.55" y="-0.65"/>
+<vertex x="0.85" y="-0.65"/>
+<vertex x="0.85" y="-1"/>
+<vertex x="0.55" y="-1"/>
+</polygon>
+<wire x1="-1.05" y1="1.05" x2="1.05" y2="1.05" width="0.05" layer="51"/>
+<wire x1="1.05" y1="1.05" x2="1.05" y2="-1.05" width="0.05" layer="51"/>
+<wire x1="1.05" y1="-1.05" x2="-1.05" y2="-1.05" width="0.05" layer="51"/>
+<wire x1="-1.05" y1="-1.05" x2="-1.05" y2="1.05" width="0.05" layer="51"/>
+</package>
+<package name="CFIL-0603">
+<smd name="1" x="-0.8" y="0" dx="0.6" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="0.8" y="0" dx="0.6" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
+<text x="-1.1" y="0.1" size="0.3" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-0.1" size="0.3" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.05" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.05" layer="51"/>
+<wire x1="-1.3" y1="0.7" x2="1.3" y2="0.7" width="0.13" layer="21"/>
+<wire x1="1.3" y1="0.7" x2="1.3" y2="-0.7" width="0.13" layer="21"/>
+<wire x1="1.3" y1="-0.7" x2="-1.3" y2="-0.7" width="0.13" layer="21"/>
+<wire x1="-1.3" y1="-0.7" x2="-1.3" y2="0.7" width="0.13" layer="21"/>
+<smd name="GND" x="0" y="0" dx="0.4" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
+<rectangle x1="-1.1" y1="-0.5" x2="-0.5" y2="0.5" layer="29"/>
+<rectangle x1="-0.2" y1="-0.5" x2="0.2" y2="0.5" layer="29"/>
+<rectangle x1="0.5" y1="-0.5" x2="1.1" y2="0.5" layer="29"/>
+<rectangle x1="-0.1" y1="-0.4" x2="0.1" y2="0.4" layer="31"/>
+<rectangle x1="0.6" y1="-0.4" x2="1" y2="0.4" layer="31"/>
+<rectangle x1="-1" y1="-0.4" x2="-0.6" y2="0.4" layer="31"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LTM4606">
@@ -6463,18 +6586,18 @@ chip</description>
 <symbol name="CHOKE">
 <text x="0" y="3.302" size="1.016" layer="95" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.302" size="1.016" layer="96" align="top-center">&gt;VALUE</text>
-<pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
 <wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1778" layer="94" curve="-180"/>
 <wire x1="-1.27" y1="-2.54" x2="0" y2="-2.54" width="0.1778" layer="94" curve="-180"/>
 <wire x1="0" y1="-2.54" x2="1.27" y2="-2.54" width="0.1778" layer="94" curve="-180"/>
 <wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.1778" layer="94" curve="-180"/>
-<pin name="3" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="4" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
 <wire x1="2.54" y1="2.54" x2="1.27" y2="2.54" width="0.1778" layer="94" curve="-180"/>
 <wire x1="1.27" y1="2.54" x2="0" y2="2.54" width="0.1778" layer="94" curve="-180"/>
 <wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.1778" layer="94" curve="-180"/>
 <wire x1="-1.27" y1="2.54" x2="-2.54" y2="2.54" width="0.1778" layer="94" curve="-180"/>
-<pin name="1" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="-5.08" y="2.54" visible="off" length="short" direction="pas"/>
 <wire x1="-2.54" y1="0.508" x2="2.54" y2="0.508" width="0.1778" layer="94"/>
 <wire x1="-2.54" y1="-0.508" x2="2.54" y2="-0.508" width="0.1778" layer="94"/>
 </symbol>
@@ -6505,6 +6628,16 @@ chip</description>
 <pin name="PC1" x="15.24" y="5.08" visible="pin" length="short" direction="pas" rot="R180"/>
 <pin name="PC2" x="5.08" y="15.24" visible="pin" length="short" direction="pas" rot="R270"/>
 <pin name="PC3" x="2.54" y="15.24" visible="pin" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="CFIL">
+<text x="0" y="3.302" size="1.016" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" align="top-center">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<wire x1="2.54" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<pin name="GND" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
+<wire x1="0" y1="-0.508" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-1.016" x2="1.27" y2="-1.016" width="0.1524" layer="94" curve="-90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9187,6 +9320,22 @@ chip</description>
 </technology>
 </technologies>
 </device>
+<device name="20V_1A" package="SOD523+">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="EURO" value="13.00/100" constant="no"/>
+<attribute name="IR" value="1500 uA" constant="no"/>
+<attribute name="MANUFACTURER" value="Nexperia" constant="no"/>
+<attribute name="MFG_PART_#" value="PMEG2010AEB,115" constant="no"/>
+<attribute name="MOUSER_PART_#" value="771-PMEG2010AEBT/R" constant="no"/>
+<attribute name="V_FWD" value="0.29V@0.1A" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="TR_PNP">
@@ -10023,6 +10172,23 @@ chip</description>
 </technology>
 </technologies>
 </device>
+<device name="26V" package="2-UDFN">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="D26V0H1U2LP20-7DICT-ND" constant="no"/>
+<attribute name="EURO" value="20.16/100" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MFG_PART_#" value="D26V0H1U2LP20-7" constant="no"/>
+<attribute name="PP" value="300W" constant="no"/>
+<attribute name="V_BRDN" value="28V" constant="no"/>
+<attribute name="V_CLAMP" value="40V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RCHDR">
@@ -10101,7 +10267,7 @@ chip</description>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="22UF_16V" package="0805">
+<device name="22U_16V-ESL" package="0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -10109,15 +10275,15 @@ chip</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="445-6797-1-ND" constant="no"/>
+<attribute name="EURO" value="31.88/100" constant="no"/>
 <attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
 <attribute name="MFG_PART_#" value="C2012X5R1C226K125AC" constant="no"/>
 <attribute name="TEMP" value="X5R" constant="no"/>
 <attribute name="TOLERANCE" value="±10%" constant="no"/>
-<attribute name="USD" value="0.67" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="22UF_35V" package="0805">
+<device name="22U_35V-ESL" package="0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -10125,11 +10291,11 @@ chip</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="445-14428-1-ND" constant="no"/>
+<attribute name="EURO" value="52.40/100" constant="no"/>
 <attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
 <attribute name="MFG_PART_#" value="C2012X5R1V226M125AC" constant="no"/>
 <attribute name="TEMP" value="X5R" constant="no"/>
 <attribute name="TOLERANCE" value="±20%" constant="no"/>
-<attribute name="USD" value="1.09" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -10610,7 +10776,7 @@ chip</description>
 </technology>
 </technologies>
 </device>
-<device name="47UF_10V" package="0805">
+<device name="47U_10V" package="0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -10905,7 +11071,7 @@ chip</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="1276-6504-1-ND" constant="no"/>
-<attribute name="EPK" value="51.91" constant="no"/>
+<attribute name="EURO" value="8.73/100" constant="no"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc." constant="no"/>
 <attribute name="MFG_PART_#" value="CL10A226MPCNUBE" constant="no"/>
 <attribute name="TEMP" value="X5R" constant="no"/>
@@ -10987,6 +11153,22 @@ chip</description>
 <attribute name="EURO" value="8.45/10" constant="no"/>
 <attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
 <attribute name="MFG_PART_#" value="LMK325BJ107MM-T" constant="no"/>
+<attribute name="TEMP" value="X5R" constant="no"/>
+<attribute name="TOLERANCE" value="±20%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="22U_16V" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="1276-6780-1-ND" constant="no"/>
+<attribute name="EURO" value="8.45/100" constant="no"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc." constant="no"/>
+<attribute name="MFG_PART_#" value="CL21A226MOCLRNC" constant="no"/>
 <attribute name="TEMP" value="X5R" constant="no"/>
 <attribute name="TOLERANCE" value="±20%" constant="no"/>
 </technology>
@@ -12669,6 +12851,7 @@ chip</description>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="ALTERNATIVE" value="SIA483DJ-T1-GE3" constant="no"/>
 <attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" constant="no"/>
 <attribute name="EPK" value="316.51" constant="no"/>
 <attribute name="MANUFACTURER" value="Fairchild Semiconductor" constant="no"/>
@@ -13334,7 +13517,7 @@ voltage at less than 10V</description>
 <gate name="G$1" symbol="M04" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-929P" package="1X04_929P">
+<device name="P-PD" package="1X04_929P">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -13343,10 +13526,11 @@ voltage at less than 10V</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="EPK" value="165.00" constant="no"/>
-<attribute name="MANUFACTURER" value="3M" constant="no"/>
-<attribute name="MFG_PART_#" value="929800-01-04" constant="no"/>
-<attribute name="MOUSE_PART_#" value="517-929800-01-04" constant="no"/>
+<attribute name="DIGIKEY_PART_#" value="890-70-004-10-001101-ND" constant="no"/>
+<attribute name="EURO" value="12.00/100" constant="no"/>
+<attribute name="MANUFACTURER" value="Preci-dip" constant="no"/>
+<attribute name="MFG_PART_#" value="890-70-004-10-001101" constant="no"/>
+<attribute name="MOUSE_PART_#" value="437-8907000410001101" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -13366,7 +13550,7 @@ voltage at less than 10V</description>
 </technology>
 </technologies>
 </device>
-<device name="-929J" package="1X04_929J">
+<device name="J-PD" package="1X04_929J">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -13375,10 +13559,11 @@ voltage at less than 10V</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="EPK" value="421.00" constant="no"/>
-<attribute name="MANUFACTURER" value="3M" constant="no"/>
-<attribute name="MFG_PART_#" value="929870-01-04-RA" constant="no"/>
-<attribute name="MOUSER_PART_#" value="517-929870-01-04-RA" constant="no"/>
+<attribute name="DIGIKEY_PART_#" value="801-87-004-10-012101-ND" constant="no"/>
+<attribute name="EURO" value="23.70/100" constant="no"/>
+<attribute name="MANUFACTURER" value="Preci-Dip" constant="no"/>
+<attribute name="MFG_PART_#" value="801-87-004-10-012101" constant="no"/>
+<attribute name="MOUSER_PART_#" value="437-8018700410012101" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -13459,6 +13644,28 @@ voltage at less than 10V</description>
 <attribute name="EPK" value="11.22" constant="no"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="MFG_PART_#" value="EXB-38V103JV" constant="no"/>
+<attribute name="TEMP" value="±200ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="150_16" package="1206-QUAD-LS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="8"/>
+<connect gate="G$2" pin="1" pad="2"/>
+<connect gate="G$2" pin="2" pad="7"/>
+<connect gate="G$3" pin="1" pad="3"/>
+<connect gate="G$3" pin="2" pad="6"/>
+<connect gate="G$4" pin="1" pad="4"/>
+<connect gate="G$4" pin="2" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="Y4151CT-ND" constant="no"/>
+<attribute name="EURO" value="2.37/100" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="MFG_PART_#" value="EXB-V8V151JV" constant="no"/>
 <attribute name="TEMP" value="±200ppm/°C" constant="no"/>
 <attribute name="TOLERANCE" value="±5%" constant="no"/>
 </technology>
@@ -13720,6 +13927,7 @@ voltage at less than 10V</description>
 <attribute name="EURO" value="68.35/100" constant="no"/>
 <attribute name="I" value="1.5A" constant="no"/>
 <attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
+<attribute name="MFG_PART_#" value="ACP3225-102-2P-TL000" constant="no"/>
 <attribute name="VDC" value="60V" constant="no"/>
 <attribute name="Z" value="1 kOhm @ 100MHz" constant="no"/>
 </technology>
@@ -13766,6 +13974,30 @@ voltage at less than 10V</description>
 <attribute name="MFG_PART_#" value="ATTINY1616-MFR" constant="no"/>
 <attribute name="RAM" value="2K" constant="no"/>
 <attribute name="TEMP" value="-40°C ~ 125°C (TA)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CFIL" prefix="C">
+<gates>
+<gate name="G$1" symbol="CFIL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="6.3V_2.2U" package="CFIL-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="EURO" value="13.3/100" constant="no"/>
+<attribute name="I" value="2A" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" constant="no"/>
+<attribute name="MFG_PART_#" value="NFM18PC225B0J3D" constant="no"/>
+<attribute name="MOUSER_PART_#" value="81-NFM18PC225B0J3D" constant="no"/>
+<attribute name="TOLERANCE" value="20 %" constant="no"/>
 </technology>
 </technologies>
 </device>
